@@ -10,12 +10,13 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Particle from '../src/components/particles/Particle';
+import Navbar from './components/navbar/Navbar';
 
 
 const App = () => {
     return (
         <>
-        
+        <Navbar/>
        <Header/> 
        <Particle/>
       <Nav/>

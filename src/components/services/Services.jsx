@@ -7,7 +7,7 @@ const Services = () => {
         <>
 <section id="services" className="border">
 
-  <h5>What I Offer</h5>
+  <h5 style={{marginTop: "5rem"}}>What I Offer</h5>
   <h2>Services</h2>
 
   <div className="services__container">
@@ -16,33 +16,33 @@ const Services = () => {
     <article className="services">
 
         <div className="service__head">
-          <h3>UI/UX Design</h3>
+          <h3>Full Stack </h3>
         </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>MongoDB</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Express </p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>REACT </p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Node</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>AWS </p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Firebase </p>
             </li>
           </ul>
     </article>
@@ -52,17 +52,17 @@ const Services = () => {
     <article className="services">
 
         <div className="service__head">
-          <h3>Full Stack</h3>
+          <h3>Frontend</h3>
         </div>
 
         <ul className="service__list">
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Tetris Game </p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>PacMan Game </p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
@@ -88,13 +88,13 @@ const Services = () => {
     <article className="services">
 
         <div className="service__head">
-          <h3>Frontend</h3>
+          <h3>Backend</h3>
         </div>
 
             <ul className="service__list">
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Bad Banking App </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon"/>

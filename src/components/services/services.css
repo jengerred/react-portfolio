@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-    margin: 0rem 10rem 0rem 10rem;
+ 
 }
 
 .services {
@@ -63,7 +63,7 @@ margin-bottom: 0.8rem;
   .services__container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 0rem 5rem 0rem 5rem;
+    margin: 0rem 3rem 0rem 3rem;
   }
   .services {
     height: auto;

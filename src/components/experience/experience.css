@@ -60,7 +60,7 @@ padding-bottom: 5rem;
         grid-template-columns: 1fr;;
     }
     .experience__container > div {
-        width: 80%;
+        width: 30rem;
         padding: 2rem;
         margin: 0 auto;
     }
@@ -72,10 +72,16 @@ padding-bottom: 5rem;
    /* Media queries (small-width) */
    @media screen and (max-width: 600px) {
 .experience__container {
-    gap: 1rem;
+    gap: 1.5rem;
 }
-.experience__containte > div {
-    width: 100%;
-    padding: 2rem 1rem;
+.experience__container > div {
+    width: 17rem;
+    padding: 0;
+ padding-top: 1rem;
+
+
+}
+.experience__details {
+    font-size: .9rem;
 }
    }

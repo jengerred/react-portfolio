@@ -7,7 +7,7 @@ import {FaGithub} from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-        <div className="border">
+     
 <footer>
     <a href="#" className="footer__logo">Jen's Portfolio</a>
 
@@ -30,7 +30,7 @@ const Footer = () => {
     </div>
 
  </footer>
- </div>
+
         </>
     )
 }
