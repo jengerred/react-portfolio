@@ -3,7 +3,7 @@
     border-image: linear-gradient(to right,  #83EEFF 40%,#f858da 60%)5 ;
     padding-top: 5rem;
 padding-bottom: 5rem;
-background: purple;
+background: transparent;
 }
 .about__container {
     display: grid;

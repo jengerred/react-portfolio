@@ -7,6 +7,8 @@ footer {
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
+    border-top: 10px solid;
+    border-image: linear-gradient(to right,  #83EEFF 40%,#f858da 60%)5 ;
 }
 
 footer a {
