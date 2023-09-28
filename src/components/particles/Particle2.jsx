@@ -3,7 +3,7 @@ import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
-const Particle = () => {
+const Particle2 = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -20,7 +20,7 @@ const Particle = () => {
     return (
         <Particles   
 
-            id="tsparticles"
+            id="tsparticles2"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
@@ -53,7 +53,7 @@ const Particle = () => {
                         value: ["#83EEFF", "#f858da", "#83EEFF"],     
                     },
                     links: {
-                        color: "random",
+                        color: "transparent",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
@@ -81,7 +81,7 @@ const Particle = () => {
                         value: 0.5,
                     },
                     shape: {
-                        type: "square",
+                        type: "star",
                     },
                     size: {
                         value: { min: 1, max: 5 },
@@ -93,4 +93,4 @@ const Particle = () => {
         />
     );
 };
-export default Particle;
+export default Particle2;

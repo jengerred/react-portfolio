@@ -1,11 +1,47 @@
 .border2 {
+    position: relative;
+    z-index: 1;
  border-top: 10px solid;
     border-image: linear-gradient(to right,  #f858da 40%, #83EEFF 60%)5 ;
 padding-top: 5rem;
 padding-bottom: 5rem;
   
 }
-
+#tsparticles3 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.MIT {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    min-width: 15rem;
+    width: 50%;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 3.5rem;
+    border: 4px solid #f858da;
+   border-left: 4px solid #83EEFF;
+   border-top:4px solid #83EEFF;
+    background: var(--color-bg-variant);
+}
+.MIT:hover {
+    border-left:4px solid #f858da;
+    border-top: 4px solid #f858da;
+    border-right: 4px solid #83EEFF;
+    border-bottom: 4px solid #83EEFF;
+}
+.certificate {
+    margin: auto;
+    width: 70%;
+    max-height: 20rem;
+    object-fit: fill;
+    border: 5px solid rgb(37, 8, 58);
+}
 .experience__container {
     z-index: 1;
     display: grid;
@@ -26,7 +62,6 @@ padding-bottom: 5rem;
    color: #f858da;
     border-color: var(--color-primary);
     cursor: default;
- 
 }
 
 .experience__container > div h3 {
@@ -51,7 +86,7 @@ padding-bottom: 5rem;
 .experience__details-icon {
     margin-top: 6px;
     color: #83EEFF;
-
+font-size: 1rem;
 }
 
 /* Media queries */
@@ -78,8 +113,6 @@ padding-bottom: 5rem;
     width: 17rem;
     padding: 0;
  padding-top: 1rem;
-
-
 }
 .experience__details {
     font-size: .9rem;

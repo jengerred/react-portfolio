@@ -1,0 +1,131 @@
+.wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    overflow-x: auto;
+ overflow-y: hidden;
+ 
+}
+.wrapper::-webkit-scrollbar {
+    margin: auto;
+    height: 2rem;
+    display: block;
+    background-color: rgb(40, 6, 64);
+}
+.wrapper::-webkit-scrollbar-thumb {
+    z-index: 1;
+   background: #83EEFF;
+}
+.wrapper::-webkit-scrollbar-button {
+background-color: #f858da;
+}
+.videos {
+    z-index: 1;
+    display: flex;
+    margin: 2rem;
+    text-align: center;
+}
+.video-1 {
+    z-index: 1;
+    width: 40rem;
+    margin: 2rem;
+}
+.video2 {
+    object-fit: fill;
+     width: 100%;
+      height: 20rem;
+       z-index: 1;
+         border: 5px solid;
+          border-image: linear-gradient(to right,  #83EEFF 40%,#f858da 60%)5;
+          margin: auto;
+}
+.video4 {
+    object-fit: fill;
+    width: 100%;
+     height: 20rem;
+      z-index: 1;
+        border: 5px solid;
+         border-image: linear-gradient(to right,  #83EEFF 40%,#f858da 60%)5;
+         margin: auto;
+}
+.video4:hover {
+    margin-left: -50rem;
+    display: block;
+    cursor: zoom-in;
+    width: 90vw;
+    height: 90vh;
+}
+.img-title {
+    background: #83EEFF;
+     padding: 1rem;
+      color: #f858da;
+       height: 15rem;
+        z-index: 1;
+        margin-left: 1.5rem;
+  
+}
+ .scroll-img {
+    z-index: 1;
+    min-width:18rem;
+    height: 15rem;
+    line-height: 110px;
+    text-align: center;
+   margin-right: 1.5rem;
+   margin-bottom: 2rem;
+    border: 10px solid;
+    border-image: linear-gradient(to right,  #83EEFF 40%,#f858da 60%)5 ;
+}
+
+.arrow-div {
+    z-index: 1;
+    color: #83EEFF;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: -5rem;
+     text-shadow: 1px 1px #f858da;
+     font-size: 1.7rem;
+}
+
+.arrow {
+    padding: .5rem;
+   width: 5vw;
+   min-width: 50px;
+    text-align: center;
+    background: transparent;
+        margin: auto;
+        background-color: #f858da;
+    border: 2px solid #83EEFF;
+    border-radius: 1rem;
+}
+@media (max-width: 646px) {
+    .videos {
+        z-index: 0;
+        margin: auto;
+        display: block;
+    }
+
+    .video-1 {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 400px) {
+.arrow {
+    width: 50px;
+}
+
+}
+@media (max-width: 1250px) {
+    .video4:hover {
+        margin-left: -23rem;
+    }
+}
+@media (max-width: 646px) {
+    .video4:hover {
+        margin:auto;
+        width: 100%;
+        height: 20rem;
+    }
+}

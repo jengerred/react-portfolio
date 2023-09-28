@@ -3,7 +3,7 @@ import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
-const Particle = () => {
+const Particle5 = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -20,7 +20,7 @@ const Particle = () => {
     return (
         <Particles   
 
-            id="tsparticles"
+            id="tsparticles5"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
@@ -50,10 +50,10 @@ const Particle = () => {
                 },
                 particles: {
                     color: {
-                        value: ["#83EEFF", "#f858da", "#83EEFF"],     
+                        value: [ "#f858da","#461B7E"],     
                     },
                     links: {
-                        color: "random",
+                        color: "transparent",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
@@ -67,7 +67,7 @@ const Particle = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 1,
+                        speed: .5,
                         straight: false,
                     },
                     number: {
@@ -75,16 +75,16 @@ const Particle = () => {
                             enable: true,
                             area: 800,
                         },
-                        value: 80,
+                        value: 15,
                     },
                     opacity: {
                         value: 0.5,
                     },
                     shape: {
-                        type: "square",
+                        type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 5 },
+                        value: { min: 50, max: 100 },
                     },
                 },
             
@@ -93,4 +93,4 @@ const Particle = () => {
         />
     );
 };
-export default Particle;
+export default Particle5;

@@ -1,9 +1,30 @@
 .border {
+    position: relative;
+    z-index: 1;
     border-top: 10px solid;
     border-image: linear-gradient(to right,  #83EEFF 40%,#f858da 60%)5 ;
     padding-top: 5rem;
 padding-bottom: 5rem;
 background: transparent;
+margin-top: 5rem;
+}
+.border p {
+    position: relative;
+    z-index: 1;
+}
+.jump {
+   margin-right: .5rem;
+    margin-left: .5rem;
+}
+a:hover {
+    color: #f858da;
+}
+#tsparticles2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .about__container {
     display: grid;

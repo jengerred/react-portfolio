@@ -22,27 +22,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>MongoDB</p>
+              <p>Full Websites and Apps </p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Express </p>
+              <p>User Login </p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>REACT </p>
+              <p>Accept payments</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Node</p>
+              <p>Book Appointments</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>AWS </p>
+              <p>ECommerce</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Firebase </p>
+              <p>No project too big or too small</p>
             </li>
           </ul>
     </article>
@@ -58,27 +58,27 @@ const Services = () => {
         <ul className="service__list">
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Tetris Game </p>
+            <p>Professional websites and Apps</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>PacMan Game </p>
+            <p>Unique designs</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Professional designs </p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Easy to use User Interface</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Fully Functional </p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Transform your website or app into REACT app. </p>
           </li>
         </ul>
     </article>
@@ -94,27 +94,27 @@ const Services = () => {
             <ul className="service__list">
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Bad Banking App </p>
+                <p>MongoDB </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Amazon AWS </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Google Firebase </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Docker </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Axios </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Stripe</p>
               </li>
             </ul>
 

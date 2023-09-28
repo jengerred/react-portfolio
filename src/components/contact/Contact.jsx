@@ -5,6 +5,8 @@ import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Particle2 from '../particles/Particle2';
+
 
 
 const Contact = () => {
@@ -21,18 +23,21 @@ const Contact = () => {
         });
 
         e.target.reset();
-        alert("Your Message was sent successfully!");
+        alert("Your message was sent successfully");
+       
     };
         
     return (
         <>
         <section id="contact" className="border2">
+        <div id="tsparticles2"><Particle2/></div>
             <h5>Get In Touch</h5>
             <h2>Contact Me</h2>
-
+           
             <div className="contact__container">
+        
                 <div className="contact__options">
-                
+              
                     <article className="contact__option">
                         <MdOutlineEmail className="contact__option-icon"/>
                         <h4>Email</h4>

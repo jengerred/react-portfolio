@@ -75,6 +75,14 @@ window.addEventListener('resize', showButton);
               </a>
             </li>
 
+            <li className='nav-item'>
+              <a
+                href='#portfolio' 
+                className='nav-links' 
+                onClick={closeMobileMenu}>
+                  Projects
+              </a>
+            </li>
 
             <li className='nav-item'>
               <a
