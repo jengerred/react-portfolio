@@ -32,7 +32,7 @@ const Testimonials = () => {
   
     </div>
     <div className="video-1">
-        <h1 style={{fontSize: "1.3rem", marginTop: "2rem", color: "#83EEFF"}}>Text and Email Reminders</h1>
+        <h1 className="reminders-title" >Text and Email Reminders</h1>
         <img className="video4" src={Notifications}/>
     </div>
 </div>

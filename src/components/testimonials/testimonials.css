@@ -25,6 +25,7 @@ background-color: #f858da;
     margin: 2rem;
     text-align: center;
 }
+
 .video-1 {
     z-index: 1;
     width: 40rem;
@@ -49,11 +50,16 @@ background-color: #f858da;
          margin: auto;
 }
 .video4:hover {
-    margin-left: -50rem;
-    display: block;
+display: block;
+margin-left: -60%;
     cursor: zoom-in;
-    width: 90vw;
-    height: 90vh;
+    width: 50vw;
+    height: 50vh;
+}
+.reminders-title {
+    font-size: 1.3rem;
+     margin-top: 2rem;
+      color: #83EEFF;
 }
 .img-title {
     background: #83EEFF;
@@ -98,7 +104,12 @@ background-color: #f858da;
     border: 2px solid #83EEFF;
     border-radius: 1rem;
 }
-@media (max-width: 646px) {
+@media (max-width: 1221px) {
+    .video4:hover {
+        margin-left: -30%;
+    }
+}
+@media (max-width: 800px) {
     .videos {
         z-index: 0;
         margin: auto;
@@ -109,6 +120,10 @@ background-color: #f858da;
         width: 80%;
         margin: auto;
     }
+    .video4:hover {
+        margin:auto;
+        width: 100%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -117,15 +132,14 @@ background-color: #f858da;
 }
 
 }
-@media (max-width: 1250px) {
-    .video4:hover {
-        margin-left: -23rem;
-    }
+
+@media (max-width: 1068px) {
+.reminders-title {
+    margin-top: 0;
 }
-@media (max-width: 646px) {
-    .video4:hover {
-        margin:auto;
-        width: 100%;
-        height: 20rem;
+}
+@media (max-width: 829px) {
+    .reminders-title {
+        margin-top: 2rem;
     }
 }

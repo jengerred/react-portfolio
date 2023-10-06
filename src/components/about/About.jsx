@@ -48,10 +48,12 @@ const About = () => {
                         </article>
                     </div>
                     <br/>
-                    <p>Hello World! My name is Jennifer Gerred. I am at the beginning of my learning journey with MERN, full-stack development. 
-                          I really love putting to use what I've learned so far. I am very eager to  put my skills to use and continue to learn new skills. It is so much fun seeing how everything comes together.
+                    <p>Hello World! My name is Jennifer Gerred. I am a full stack developer, specializing in MERN stack. 
+                            I love learning new skills and continue growing and working with the skills I have. 
+                            It is so exciting to see everything come together into a fully functional project.
                              I am looking forward to adding more projects to my portfolio as well as updating and adding to what I have currently.
                              I love that I can use my skills and knowledge to make other peoples jobs easier and more productive. 
+                             I am excited to continue to learn and grow as a full stack developer. 
                               I can't wait to continue to learn and grow as a developer!
                               </p>
 
