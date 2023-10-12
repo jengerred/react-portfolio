@@ -53,8 +53,7 @@ const About = () => {
                             It is so exciting to see everything come together into a fully functional project.
                              I am looking forward to adding more projects to my portfolio as well as updating and adding to what I have currently.
                              I love that I can use my skills and knowledge to make other peoples jobs easier and more productive. 
-                             I am excited to continue to learn and grow as a full stack developer. 
-                              I can't wait to continue to learn and grow as a developer!
+                             I am excited to continue to learn and grow as a full stack developer! 
                               </p>
 
                               <p>
